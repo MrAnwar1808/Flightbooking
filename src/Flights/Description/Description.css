@@ -1,0 +1,22 @@
+
+.script{
+    /* max-width: 900px; */
+    width: 78%;
+    /* margin: 0 auto; */
+    margin-left: 270px;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
+}
+
+.script h1{
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    margin-left: 0px;
+}
+
+.script p{
+
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+}

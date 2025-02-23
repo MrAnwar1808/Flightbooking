@@ -1,0 +1,209 @@
+
+.container {
+    /* max-width: 900px; */
+    width: 60%;
+    height: 500px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    /* margin: 20px auto; */
+    /* margin-top: 40px; */
+    /* text-align: center; */
+  }
+  
+ 
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    display: flex;
+    position: relative;
+    gap: 20px;
+  }
+  
+  select,
+  input[type="text"],
+  input[type="date"] {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  
+
+ 
+  .form-group select {
+    cursor: pointer;
+  }
+  
+
+  .passenger-input {
+    background: #f9f9f9;
+    position: absolute;
+    margin-left: 417px;
+    width: 42%;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    /* text-align: center; */
+    /* justify-content: space-between; */
+  }
+  
+  .passenger-input div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .passenger-input label {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .inc-dec {
+    color : #007bff;
+    border: 1px solid #007bff ;
+    background-color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  
+
+  
+  .passenger-input input {
+    width: 30px;
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    background: none;
+  }
+  
+
+  .class-selection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .btn-class {
+    padding: 8px;
+    border: 1px solid #0e0d0d;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  
+ 
+  .form-places {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .form-places input {
+    width: 100%;
+  
+  }
+  
+  .form-calander{
+    display: flex;
+    gap: 18px;
+  }
+
+  .form-calander input {
+    width: 45%;
+    margin-bottom: 10px;
+    /* display: flex; */
+  }
+
+  /* .disabled-input {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+   */
+  
+
+  .form-checkbox {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  .checkboxes{
+    display: flex;
+    gap: 30px;
+  }
+  
+  .checkboxes label {
+    display: flex;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+  }
+
+  .form-bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 200px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .form-bottom label {
+    font-size: 14px;
+    width: 250px;
+    color: #444;
+    /* display: flex; */
+    align-items: center;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 0;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  
+  .btn-search {
+    width: 30%;
+    height: 50px;
+    background: #ff4500;
+    color: #fff;
+    /* padding: 12px; */
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 40px;
+    transition: 0.3s;
+  }
+ 
+  

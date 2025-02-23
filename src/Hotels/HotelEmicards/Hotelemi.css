@@ -1,0 +1,21 @@
+
+.bankEMI {
+    display: flex;
+    margin-left: 300px;
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 20px;
+  }
+  
+
+  .bankEMI img{
+    width: 32%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .bankEMI img:hover {
+    transform: scale(1.05); 
+  }

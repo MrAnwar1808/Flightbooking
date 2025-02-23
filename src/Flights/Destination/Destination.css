@@ -1,0 +1,71 @@
+h2 {
+    margin-left: 300px;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+        
+.alldestinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    margin-left: 260px;
+}
+
+.desti{
+    margin-bottom: 40px;
+}
+.destination {
+    position: relative;
+    width: 200px; 
+    height: 270px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: inline-block;
+    margin: 10px;
+}
+
+
+.destination img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.destination::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    z-index: 1;
+}
+
+.destination h3,
+.destination p {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    z-index: 2;
+}
+
+
+.destination h3 {
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.destination p {
+    bottom: 15px;
+    font-size: 14px;
+}

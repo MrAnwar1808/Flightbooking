@@ -1,0 +1,13 @@
+
+.hotel-content{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 20px;
+    justify-content: space-between;
+   
+    
+}
+.right-ads{
+    display: block;
+}

@@ -1,0 +1,50 @@
+
+.advert-container {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    background: #eeecec;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+  }
+  
+  .advert-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .advert-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .advert-btn {
+    background: blueviolet;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s ease;
+  }
+ 
+  .advert-remove {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  

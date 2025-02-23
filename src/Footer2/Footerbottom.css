@@ -1,0 +1,43 @@
+.footeradvs {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: left;
+}
+
+.footeradvs h3 {
+    color: #333;
+    font-size: 18px;
+    margin-top: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.list {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.8;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list ul li {
+    display: inline;
+}
+
+.list ul li::after {
+    content: " • "; 
+    color: #666;
+}
+
+.list ul li:last-child::after {
+    content: ""; 
+}
+
+.list ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
